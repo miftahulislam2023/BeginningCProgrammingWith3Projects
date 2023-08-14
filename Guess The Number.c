@@ -1,6 +1,6 @@
 /*
 Guess the Number Game Using if-else statements and loops
-with an additional library functions abs() and rand().
+with additional library functions abs() and rand().
 Coded By Miftahul Islam.
 */
 /*
