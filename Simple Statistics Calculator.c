@@ -9,7 +9,7 @@ void show_numbers(double *numbers, int total_number){
     printf("\n");
 }
 
-void sort(double *numbers, int total_number){
+void sort_numbers(double *numbers, int total_number){
     double temp = numbers[0];
     for (int step = 0; step < total_number - 1; ++step) {
         for (int i = 0; i < total_number - step - 1; ++i) {
@@ -60,7 +60,7 @@ int main(){
             show_numbers(numbers, total_number);
             break;
         case 2:
-            sort(numbers, total_number);
+            sort_numbers(numbers, total_number);
             break;
         case 3:
             show_sum(numbers, total_number);
